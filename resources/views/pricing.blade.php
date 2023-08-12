@@ -10,6 +10,16 @@
 </head>
 <body>
 
+
+    @php
+    $dompet = 0;
+    $bonus  = 10000000;
+    $total = $dompet + $bonus;
+
+
+    echo $total
+    @endphp
+    
     <section>
         <div class="container">
             <div class="row py-5">
