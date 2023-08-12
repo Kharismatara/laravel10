@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use PhpParser\Node\Stmt\Echo_;
 
 class LandingController extends Controller
 {
@@ -21,10 +22,25 @@ class LandingController extends Controller
      /**
      * Display a listing of the resource.
      */
-    public function detail()
+    /**
+     * Display a listing of the resource.
+     */
+    public function testimonials()
     {
         //
-       
+         echo "hai bro";
+    }
+
+    /**
+     * Show the form for creating a new resource.
+     */
+     /**
+     * Display a listing of the resource.
+     */
+    public function details()
+    {
+        //
+        return view('landing.details');
     }
 
     /**
