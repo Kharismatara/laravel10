@@ -94,9 +94,14 @@
                                         Exnoparty
                                     </p>
                                 </div>
+                                @php
+                                $booking = true; 
+                                @endphp
                                 <div class="price">
                                     <p class="mb-0">
-                                        $28,109<span class="extra-small-paragraph">/mo</span>
+                                        {{ $booking ? 'sold out' : '$28,109' }}<span class="extra-small-paragraph">
+                                            {{ $booking ? '' : '/mon' }}
+                                        </span>
                                     </p>
                                 </div>
                                 <div class="clear"></div>
