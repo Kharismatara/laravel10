@@ -28,7 +28,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Explore</a>
+                        <a class="nav-link active" aria-current="page" href="{{ route('index') }}">Explore</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Categories</a>
@@ -107,11 +107,11 @@
             <div class="row">
                 <div class="col-lg-3">
                     <div class="item">
-                        <a href="details.html">
+                        <a href="{{ route('landing.details') }}">
                             <img src="images/house1.png" alt="" class="img-fluid">
                         </a>
                         <div class="info">
-                            <a href="details.html">
+                            <a href="{{ route('landing.details') }}">
                                 <h3 class="small-header mb-2">
                                     Coral Brown
                                 </h3>
