@@ -15,10 +15,12 @@
     $dompet = 0;
     $bonus  = 10000000;
     $total = $dompet + $bonus;
-
-
     echo $total
     @endphp
+
+
+
+    <h1>Hasil Gaji = {{ $total }}</h1>
     
     <section>
         <div class="container">
