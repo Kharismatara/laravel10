@@ -307,14 +307,7 @@
                 </div>
             </div>  --}}
             <div class="row">
-                @components('components.house_card')
-                @slot('cover')
-                @slot('title')
-                @slot('price')
-                @slot('location')
-                    
-                @endslot
-                @endcomponents
+                @include('components.house_card')
             </div>
         </div>
     </section>
