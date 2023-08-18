@@ -78,13 +78,13 @@
             <div class="row">
                 <div class="col-lg-3">
                     <div class="item">
-                        <a href="{{ route('landing.details') }}">
+                        <a href="{{ route('landing.details', 'coral-pik-seven') }}">
                             <img src="{{ asset('images/house1.png') }}" alt="" class="img-fluid">
                         </a>
                         <div class="info">
-                            <a href="{{ route('landing.details') }}">
+                            <a href="{{ route('landing.details', 'coral-pik-seven') }}">
                                 <h3 class="small-header mb-2">
-                                    Coral Brown
+                                    Coral Pik Seven
                                 </h3>
                             </a>
                             <div class="footer">
@@ -111,11 +111,11 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="item">
-                        <a href="">
+                        <a href="{{  route('landing.details', 'coral-brown')  }}">
                             <img src="{{ asset('images/house2.png') }}" alt="" class="img-fluid">
                         </a>
                         <div class="info">
-                            <a href="">
+                            <a href="{{  route('landing.details', 'coral-brown')  }}">
                                 <h3 class="small-header mb-2">
                                     Coral Brown
                                 </h3>
@@ -139,13 +139,13 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="item">
-                        <a href="">
+                        <a href="{{  route('landing.details', 'the-box')  }}">
                             <img src="{{ asset('images/house3.png') }}" alt="" class="img-fluid">
                         </a>
                         <div class="info">
-                            <a href="">
+                            <a href="{{  route('landing.details', 'the-box')  }}">
                                 <h3 class="small-header mb-2">
-                                    Coral Brown
+                                   The Box
                                 </h3>
                             </a>
                             <div class="footer">
@@ -167,13 +167,13 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="item">
-                        <a href="">
+                        <a href="{{  route('landing.details', 'havana-kalla')  }}">
                             <img src="{{ asset('images/house4.png') }}" alt="" class="img-fluid">
                         </a>
                         <div class="info">
-                            <a href="">
+                            <a href="{{  route('landing.details', 'havana-kalla')  }}">
                                 <h3 class="small-header mb-2">
-                                    Coral Brown
+                                    Havana Kalla
                                 </h3>
                             </a>
                             <div class="footer">
@@ -195,13 +195,13 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="item">
-                        <a href="">
+                        <a href="{{  route('landing.details', 'king-the-land')  }}">
                             <img src="{{ asset('images/house5.png') }}" alt="" class="img-fluid">
                         </a>
                         <div class="info">
-                            <a href="">
+                            <a href="{{  route('landing.details', 'king-the-land')  }}">
                                 <h3 class="small-header mb-2">
-                                    Coral Brown
+                                    King The Land
                                 </h3>
                             </a>
                             <div class="footer">
@@ -223,13 +223,13 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="item">
-                        <a href="">
+                        <a href="{{  route('landing.details', 'home-sweet')  }}">
                             <img src="{{ asset('images/house6.png') }}" alt="" class="img-fluid">
                         </a>
                         <div class="info">
-                            <a href="">
+                            <a href="{{  route('landing.details', 'home-sweet')  }}">
                                 <h3 class="small-header mb-2">
-                                    Coral Brown
+                                    Home Sweet
                                 </h3>
                             </a>
                             <div class="footer">
@@ -251,13 +251,13 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="item">
-                        <a href="">
+                        <a href="{{  route('landing.details', 'amour')  }}">
                             <img src="{{ asset('images/house7.png') }}" alt="" class="img-fluid">
                         </a>
                         <div class="info">
-                            <a href="">
+                            <a href="{{  route('landing.details', 'amour')  }}">
                                 <h3 class="small-header mb-2">
-                                    Coral Brown
+                                   Amour 
                                 </h3>
                             </a>
                             <div class="footer">
@@ -279,13 +279,13 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="item">
-                        <a href="">
+                        <a href="{{  route('landing.details', 'biru-batu')  }}">
                             <img src="{{ asset('images/house8.png') }}" alt="" class="img-fluid">
                         </a>
                         <div class="info">
-                            <a href="">
+                            <a href="{{  route('landing.details', 'biru-batu')  }}">
                                 <h3 class="small-header mb-2">
-                                    Coral Brown
+                                    Biru Batu
                                 </h3>
                             </a>
                             <div class="footer">

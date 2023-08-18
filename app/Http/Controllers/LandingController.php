@@ -37,10 +37,11 @@ class LandingController extends Controller
      /**
      * Display a listing of the resource.
      */
-    public function details()
+    public function details($slug)
     {
         //
-        return view('landing.details');
+      
+        return view('landing.details', compact('slug'));
     }
 
     /**
