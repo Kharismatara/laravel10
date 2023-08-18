@@ -25,10 +25,23 @@ class LandingController extends Controller
     /**
      * Display a listing of the resource.
      */
+   
     public function testimonials()
     {
         //
          echo "hai bro";
+    }
+
+    /**
+     * Show the form for creating a new resource.
+     */
+     /**
+     * Display a listing of the resource.
+     */
+    public function wishlist()
+    {
+        //
+         return view('landing.wishlist');
     }
 
     /**

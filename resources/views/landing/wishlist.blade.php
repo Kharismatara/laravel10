@@ -307,8 +307,14 @@
                 </div>
             </div>  --}}
             <div class="row">
-                @include('components.house_card')
-            </div>
+                {{--  tables best of best --}}
+               @component('components.house_card')
+               @slot('cover', 'images/house2.png')
+               @slot('title', 'King The Land')
+               @slot('price', '28,880')
+               @slot('location', 'Banyuwangi')
+               @endcomponent
+           </div>
         </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"

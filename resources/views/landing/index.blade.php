@@ -306,15 +306,17 @@
                     </div>
                 </div>
             </div>  --}}
+            {{--  perumpaaan mengambil data dari databases --}}
             <div class="row">
-                @components('components.house_card')
-                @slot('cover')
-                @slot('title')
-                @slot('price')
-                @slot('location')
-                    
-                @endslot
-                @endcomponents
+                 {{--  tables best of best --}}
+                @component('components.house_card')
+                @slot('cover', 'images/house4.png')
+                @slot('title', ' Havana Kalla')
+                @slot('price', '28,109')
+                @slot('location', 'Jakarta')
+                @slot('review', '4.5')
+                @endcomponent
+                
             </div>
         </div>
     </section>
